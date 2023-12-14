@@ -10,6 +10,7 @@
         Patlıcan : 5,00 TL*/
 import java.util.Scanner;
 public class Main {
+<<<<<<< HEAD
     public static void main(String[] args) {
         double armut = 2.14;
         double elma = 3.67;
@@ -32,6 +33,22 @@ public class Main {
         System.out.println("Toplam Tutar : " + toplam + " TL ");
 
 
+=======
+    static Scanner input = new Scanner(System.in);
+    public static void main(String[] args){
+        // kullanıcı sayıları a= 10, b= 2, c= 3
+        int a = 10,b = 2 ,c = 3,sonuc = a+b*c-b;
+        //Kullanıcı verilen sayıları girdikçe değerler ve karşılıkları eşleşecek.
+        System.out.print("a sayısını giriniz : " );
+        a = input.nextInt();
+        System.out.print("b sayısını giriniz : " );
+        b = input.nextInt();
+        System.out.print("c sayısını giriniz : " );
+        c = input.nextInt();
+        //En son sayı girildiğinde istenilen sonucun çıktısı otomatik verilecek.
+        System.out.print("Sonuç = " + sonuc);
+        sonuc = input.nextInt();
+>>>>>>> 22d552da76c9f15f90542f3372abba7f9e009e0e
 
     }
 }
