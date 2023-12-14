@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        // Değişkenleri oluştur.
+        // Değişkenleri oluşturdum.
         int mat,fizik,kimya,turkce,tarih,muzik;
 
         // Scanner sınıfımızı tanımladık.
