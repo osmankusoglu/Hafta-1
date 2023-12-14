@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-import java.util.Scanner;
-public class Main {
-    public static void main(String[] args){
-        int km;
-        double KMbasi = 2.20, toplamTutar, acilisTutar = 10;
-        Scanner input = new Scanner(System.in);
-        System.out.print("Mesafeyi KM cinsinden giriniz. : ");
-        km =input.nextInt();
-
-        toplamTutar = (km * KMbasi);
-        toplamTutar += acilisTutar;
-
-
-        toplamTutar = (toplamTutar < 20) ? 20 : toplamTutar;
-        System.out.println("Toplam tutar : " + toplamTutar);
-
-    }
-}
-=======
 import java.util.Scanner;
 
 public class Main {
@@ -45,4 +25,3 @@ public class Main {
 
     }
 }
->>>>>>> 22d552da76c9f15f90542f3372abba7f9e009e0e
