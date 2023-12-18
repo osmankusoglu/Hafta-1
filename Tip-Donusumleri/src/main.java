@@ -4,11 +4,11 @@ public class main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Kullanıcıdan bir tam sayı girişi al
+        // Tam sayı değeri gir
         System.out.print("Bir tam sayı giriniz: ");
         int tamSayi = scanner.nextInt();
 
-        // Kullanıcıdan bir ondalıklı sayı girişi al
+        // Ondalıklı sayı gir örn 3,14
         System.out.print("Bir ondalıklı sayı giriniz: ");
         double ondalikliSayi = scanner.nextDouble();
 
