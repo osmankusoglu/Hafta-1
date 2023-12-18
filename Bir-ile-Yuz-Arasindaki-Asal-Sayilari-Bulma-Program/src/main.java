@@ -10,7 +10,7 @@ public class main {
                 }
             }
             if (sayi){
-                System.out.print(i + " ");
+                System.out.print(i +  " ");
             }
         }
     }
