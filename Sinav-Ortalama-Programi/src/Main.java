@@ -28,7 +28,7 @@ public class Main {
 
         int toplam = ( mat + fizik + kimya + turkce + tarih + muzik);
         double sonuc =  toplam / 6.0 ;
-        System.out.println("Ortalamanız : " + sonuc);
+        System.out.println("Ortalamanız :  " + sonuc);
 
 
         System.out.println(sonuc >= 60 ? "Sınıfı Geçti" : "Sınıfta Kaldı");
