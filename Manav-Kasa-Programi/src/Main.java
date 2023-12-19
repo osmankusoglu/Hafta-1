@@ -1,25 +1,35 @@
 import java.util.Scanner;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        int yil;
-
-        //Kullanıcıdan veri alma
         Scanner input = new Scanner(System.in);
-        System.out.print("Yıl giriniz :");
-        yil = input.nextInt();
+        double armutFiyat = 2.14,elmaFiyat = 3.67,domatesFiyat = 1.11,muzFiyat = 0.95,patlicanFiyat = 5,toplam;
+        double alinanArmut,alinanElma,alinanDomates,alinanMuz,alinanPatlican;
+        int alinanKg;
 
-        //Artık yıl bulma
-        if(yil % 4 == 0){
-            if( (yil % 100 == 0) && (yil % 400 != 0)){
-                System.out.println(yil + " bir artık yıl değildir ! !");
-            }else {
-                System.out.println(yil +" bir artık yıldır !");
-            }
-        }else {
-            System.out.println(yil +" bir artık yıl değildir !");
-        }
+        System.out.print("Armut Kaç Kilo ? : " );
+        alinanKg = input.nextInt();
+        alinanArmut = alinanKg * armutFiyat;
+
+        System.out.print("Elma Kaç Kilo ? : " );
+        alinanKg = input.nextInt();
+        alinanElma = alinanKg * elmaFiyat;
+
+        System.out.print("Domates Kaç Kilo ? : " );
+        alinanKg = input.nextInt();
+        alinanDomates = alinanKg * domatesFiyat;
+
+        System.out.print("Muz Kaç Kilo ? : " );
+        alinanKg = input.nextInt();
+        alinanMuz = alinanKg * muzFiyat;
+
+        System.out.print("Patlıcan  Kaç Kilo ? : " );
+        alinanKg = input.nextInt();
+        alinanPatlican = alinanKg * patlicanFiyat;
+
+        toplam = (alinanArmut)+(alinanElma)+(alinanDomates)+(alinanMuz)+(alinanPatlican);
+        System.out.println("Toplam tutar : " + toplam);
+
+
     }
 }
